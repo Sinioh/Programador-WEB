@@ -1,1 +1,1 @@
-// Strings em JS
+// Strings em JavaScript
