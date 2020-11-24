@@ -1,0 +1,1 @@
+let primeiroNome = 'Juliana'; let ultimoNome = 'Silva'; let idade = 35
