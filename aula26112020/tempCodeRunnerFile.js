@@ -1,6 +1,4 @@
-let x = 10, y = '5';
-if (x == 10 || y === 5) {
-    console.log('Teste lógico verdadeiro');
-} else {
-    console.log('Teste lógico falso');
-}
+
+console.log(20 === '20');
+
+console.log(10 !== '10');
