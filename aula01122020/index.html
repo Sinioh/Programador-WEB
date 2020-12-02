@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Resposta - Atividade Prática JavaScript</title>
+</head>
+
+<body>
+    <h1>Resposta - Atividade Prática JavaScript</h1>
+    <h2>Editores e IDEs para codificar</h2>
+    <ul>
+        <li>Notepad++</li>
+        <li>Atom</li>
+        <li>Bracktes</li>
+        <li>Visual Studio Code</li>
+    </ul>
+    <div id="adicao"></div>
+    <div id="subtracao"></div>
+    <div id="multiplicacao"></div>
+    <div id="divisao"></div>
+    <div id="imc"></div>
+    <script>
+        let peso = 72;
+        let altura = 1.72;
+        let imc;
+        let x = 5;
+        let y = 10;
+        let z;
+
+        z = x + y;
+        document.getElementById('adicao').innerHTML = "Adição: " + z
+        z = x - y;
+        document.getElementById('subtracao').innerHTML = "Subtração: " + z
+        z = x * y;
+        document.getElementById('multiplicacao').innerHTML = "Multiplicação: " + z
+        z = x / y;
+        document.getElementById('divisao').innerHTML = "Divisão: " + z
+        //template string
+        //document.write(`IMC: ${imc = (peso / (altura * altura)).toFixed(2)}`)
+        document.getElementById('imc').innerHTML = (`IMC: ${imc = (peso / (altura * altura)).toFixed(2)}`)
+
+    </script>
+
+
+</body>
+
+</html>
