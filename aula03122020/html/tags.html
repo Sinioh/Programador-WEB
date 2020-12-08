@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR"> 
 <head>
     <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
@@ -11,7 +11,9 @@
         <nav><!--vamos criar um menu utilizando listas-->
             <ul>
                 <li>Home</li>
-                <li>Meu Menu</li>
+                <li>Postagens</li>
+                <li>FAQ</li>
+                <li>Sobre</li>
             </ul>
         </nav>
     </header>
@@ -19,20 +21,48 @@
     <p>
         In proident veniam non velit proident dolor elit. Elit tempor elit aliquip dolor est pariatur adipisicing nostrud do pariatur amet excepteur.
     </p>
+    <audio controls src="audio/Deeper-than-Friendship.mp3">Seu navegador não suporta áudio</audio>
     <figure>
         <img id="logo" src="img/HTML5_Logo_256.png" alt="Logotipo HTML5">
-        <span>Logotipo HTML5</span>
+       <br> <span>Logomarca do HTML5</span>
     </figure>
     <p>
     Lorem aliquip dolor magna voluptate magna duis incididunt. Nostrud ad enim aliquip commodo commodo velit occaecat sit fugiat aliqua labore do. Ut fugiat amet deserunt veniam nisi nulla labore veniam.        
     </p>
+    <video controls src="video/big_buck_bunny.ogv">O seu navegador não suporta vídeo</video>
+    <p> Pre:
+        <pre><!-- Tag utilizada para representar texto pré-formatado-->
+            <strong>Informação!</strong>
+            Velit officia excepteur sit enim eu qui fugiat in.
+            Mollit consectetur incididunt aute nulla velit
+            consectetur ad culpa enim veniam. Voluptate culpa
+            ea eu eiusmod fugiat aliqua. Id est minim voluptate
+            consectetur consequat culpa qui.
+        </pre>
+    </p>
+    
+    <p>
+        Os iframes servem para incluir recursos de uma outra página na sua página.
+    </p>
+    <iframe src="https://soundimage.org/introspective/">
+        <p>Seu navegador não possui suporte para iFrames</p>
+    </iframe>
     <footer>
         <div><!--criando uma divisão para meu rodapé-->
             <form method="POST" action="">
                 <input type="text" name="nome" placeholder="Digite seu nome">
                 <input type="text" name="email" placeholder="Digite seu E-Mail">
-                <input type="submit" name="enviar" value="Enviar Dados">
+                <input type="submit" name="enviar" value="Enviar">
             </form>
+        </div>
+        <div>
+            <p>
+                Senac - Serviço Nacional de Aprendizagem Comercial - AR/PI
+            </p>
+            <p>
+                Avenida Campo Sales, 1111 - Centro - Teresina - PI. <br> <!--não precisa fechar essa tag, forma uma quebra de linha-->
+                CEP: 64000-100 - Telefone (86) 3228-9500
+            </p>
         </div>
     </footer>
 </body>

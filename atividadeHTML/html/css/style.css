@@ -1,0 +1,50 @@
+html {
+    background: rgb(70, 128, 128);
+}
+body {
+    background-color: yellowgreen;
+}
+header {
+    font-family: fantasy;
+    color: darkturquoise;
+    background-color: rgb(15, 66, 15);
+}
+
+footer {
+    font-size: x-large;
+    font-family: fantasy;
+    color: darkturquoise;
+    background-color: rgb(15, 66, 15);
+}
+
+img {
+    width: 450px;  
+}
+span {
+    font-size: larger;
+}
+
+video {
+    width: 450px;
+
+}
+
+audio {
+    margin-left: 40px;
+    width: 450px;
+}
+
+pre {
+    font-size: larger;
+    background-color: teal;
+}
+form ::placeholder{
+    background-color: rgb(4, 24, 7);
+    color: whitesmoke;  
+}
+form  {
+    margin-left: 40px;
+}
+label {
+    font-size: medium;
+}
