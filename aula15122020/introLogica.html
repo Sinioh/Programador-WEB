@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lógica de programação</title>
+</head>
+<body>
+    <script>
+        /*
+        Caracteres não permitidos para identificador de variáveis e constantes
+        +,-,*, /; %, (,),1.551,@,#
+        */
+         var nome, idade;
+        /*
+        
+        nome = prompt("Qual o seu nome?");
+        idade = prompt("Qual a sua idade?");
+
+        //console.log()
+        alert(`Nome: ${nome}\nIdade: ${idade} `); */
+        /*
+        Escreva um algoritmo que receba um número inteiro e 
+        mostre através da caixa de alerta os seus vizinhos. 
+        Ex. para 10 sera mostrado 9 e 11
+        */
+        let numero = prompt('Escreve uma número inteiro para saber os números vizinhos');
+        let anterior = parseInt(numero) - 1
+        let posterior = parseInt(numero) + 1
+        
+        alert(`Números vizinhos de ${numero}:\n${anterior} e ${posterior}`)
+
+    </script>
+    
+</body>
+</html>
