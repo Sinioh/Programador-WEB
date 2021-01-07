@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Resolução</title>
+</head>
+<body>
+    <h1>Resoluções das questões</h1>
+    <p id="soma"></p>
+
+    <div onmouseover="this.style.backgroundColor='red'">Aqui uma TAG &lt;div&gt;.</div>
+    <div onmouseout="this.style.backgroundColor='white'"></div>
+    
+    <button onclick="this.innerHTML = alert('Seja Bem Vindo')">Olá</button>
+    <button onclick="this.innerHTML = document.getElementById('soma').innerHTML = minhaSoma(25, 4)">Somar</button>
+    
+    <script>
+        let n1, n2;
+        function minhaSoma(n1, n2) {
+            return n1 + n2;
+        }
+
+    </script>
+
+
+
+
+
+</body>
+</html>

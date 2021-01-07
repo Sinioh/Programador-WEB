@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Eventos HTML5</title>
+</head>
+<body>
+    <h1>Eventos do HTML5</h1>
+    <p>
+        Um evento HTML pode ser algo que o navegador faz, ou algo que um usuário faz.
+    </p>
+    <h2>Exemplo de eventos:</h2>
+    <ul>
+        <li>Uma página web HTML terminou de carregar</li>
+        <li>Um campo de entrada HTML foi alterado</li>
+        <li>Um botão HTML foi clicado</li>
+    </ul>
+    <table border="1">
+        <tr>
+            <th>Evento</th>
+            <th>Descrição</th>
+        </tr>
+        <tr>
+            <td>onchange</td>
+            <td>Um elemento HTML foi alterado</td>
+        </tr>
+        <tr>
+            <td>onclick</td>
+            <td>O usuário clica em um elemento HTML</td>
+        </tr>
+        <tr>    
+            <td>onmouseover</td>
+            <td>O usuário move o mouse sobre um elemento HTML</td>
+        </tr>
+        <tr>
+            <td>onkeydown</td>
+            <td>O usuário pressiona uma tecla de teclado</td> 
+        </tr>
+        <tr>
+            <td>onload</td>
+            <td>O navegador terminou de carregar</td>
+        </tr>
+    </table>
+    <p id="resultado"></p>
+    <p id="soma"></p>
+    <button onclick="document.getElementById('resultado').innerHTML=Date()">A hora é</button>
+    <br><br>
+    <button onclick="this.innerHTML = Date()">Que horas são?</button>
+
+    <p>Cloque no botão abaixo para exibir a Data/Hora</p>
+
+    <button onclick="alert('Seja bem vindo.')">Saudação</button>
+    
+    <script>
+        let z = prompt("Digite um número");
+        let x = prompt("Digite outro número");
+        function minhaSoma(z, x) {
+            return (z + x)
+        }
+        console.log(minhaSoma())
+            document.getElementById("soma").innerHTML = console.log(minhaSoma);
+    </script>
+</body>
+</html>
